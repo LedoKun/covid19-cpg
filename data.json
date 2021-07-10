@@ -1,0 +1,50 @@
+{
+  "title": "แนวทางเวชปฏิบัติ การวินิจฉัย ดูแลรักษา และป้องกันการติดเชื้อในโรงพยาบาลกรณีโรคติดเชื้อไวรัสโคโรนา 2019 (COVID-19)",
+  "content": "<b>เกณฑ์</b><br><img src=\"./criteria1.jpg\" alt=\"Criteria\" class=\"sub_content\">",
+  "type": "nary",
+  "labels": [
+    {
+      "text": "ไม่เข้าเกณฑ์",
+      "value": 0
+    },
+    {
+      "text": "เข้าเกณฑ์",
+      "value": 1
+    }
+  ],
+  "children": [
+    {
+      "value": 0,
+      "title": "ผู้ป่วยไม่เข้าเกณฑ์",
+      "content": "ทำการรักษาผู้ป่วยตามปกติ"
+    },
+    {
+      "value": 1,
+      "title": "ผู้ป่วยเข้าเกณฑ์",
+      "content": "<b>ตรวจหา SARS-CoV-2</b><br><img src=\"./criteria2.jpg\" alt=\"Criteria\" class=\"sub_content\">",
+      "type": "nary",
+      "labels": [
+        {
+          "value": 0,
+          "text": "ไม่พบเชื้อ SARS-CoV-2"
+        },
+        {
+          "value": 1,
+          "text": "ตรวจพบเชื้อ SARS-CoV-2"
+        }
+      ],
+      "children": [
+        {
+          "value": 0,
+          "title": "ไม่พบเชื้อ SARS-CoV-2",
+          "content": "<img src=\"./criteria3.jpg\" alt=\"Criteria\" class=\"sub_content\">"
+        },
+        {
+          "value": 1,
+          "title": "ตรวจพบเชื้อ SARS-CoV-2",
+          "content": "<img src=\"./criteria4.jpg\" alt=\"Criteria\" class=\"sub_content\"><br><b>อ่านรายละเอียดเพิ่มเติ่มได้<a href=\"./25640625085440AM_CPG_COVID_v.15_n 20210625.pdf\">ที่นี่</a></b>"
+        }
+      ]
+    }
+  ]
+}
